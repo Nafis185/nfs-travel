@@ -1,0 +1,142 @@
+header, main {
+  margin-top: 10px;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+header nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header nav ul {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  list-style: none;
+}
+
+.logo-name {
+  display: flex;
+  justify-content: space-between;
+  gap: 4px;
+  align-items: center;
+}
+
+/* sections starts */
+
+.explore-your-travel {
+  /* width: 100%; */
+}
+
+.explore-container {
+  background-image: url("../Images/Group\ 13\ \(1\)\ \(1\).png");
+  background-size: cover;
+  /* width: 1170px; */
+  height: 800px;
+}
+
+.time-range {
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.3);
+  width: 1000px;
+  height: 84px;
+  display: flex;
+  align-items: flex-start;
+  gap: 24px;
+}
+
+/* our popular tours sections */
+
+.popular-tours {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* why choose us section */
+
+.Choose-box {
+  width: 573px;
+  height: 284px;
+  flex-shrink: 0;
+  border-radius: 16px;
+}
+
+.Handpicked-hotel {
+  border: 1px solid rgba(251, 181, 99, 0.2);
+  background: rgba(251, 181, 99, 0.05);
+}
+
+.world-clss-service {
+  border: 1px solid rgba(41, 206, 246, 0.2);
+  background: rgba(41, 206, 246, 0.05);
+}
+
+.price-gurantee {
+  border: 1px solid rgba(233, 68, 68, 0.2);
+  background: rgba(233, 68, 68, 0.05);
+}
+
+/* deals & discounts section */
+.deals-discounts-img {
+  background-image: url("../Images/pool\ seats.jpg");
+  width: 1170px;
+  height: 800px;
+  background-size: cover;
+}
+.dd-box-1 {
+  width: 579px;
+  height: 389px;
+  flex-shrink: 0;
+  border-radius: 16px;
+  border: 2px solid #fff;
+}
+.dd-box-2 {
+  /* background-image: url("../Images/pool\ seats2.jpg"); */
+  width: 579px;
+  height: 389px;
+  flex-shrink: 0;
+  border-radius: 16px;
+  border: 2px solid #fff;
+}
+.dd-box-3 {
+  /* background-image: url("../Images/pool\ seats.jpg"); */
+  width: 579px;
+  height: 389px;
+  flex-shrink: 0;
+  border-radius: 16px;
+  border: 2px solid #fff;
+}
+
+/* PERFECT PLACE SECTION */
+
+.perfect-place {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* footer section */
+.footer {
+  width: 100%;
+  /* max-width: 1440px; */
+  height: 502px;
+  flex-shrink: 0;
+  background: rgba(19, 19, 24, 0.05);
+  /* align-items: center; */
+}
+
+.footer-container{
+    /* justify-items: center; */
+    align-items: center;
+    width: 700px;
+    height: 300px;
+    /* padding-top: 50px;
+    pa */
+}
+
+.footer-logo-name{
+    display: flex;
+    gap: 5px;
+    /* justify-content: space-between; */
+}
