@@ -32,11 +32,12 @@
            "Discover Your Next Adventure: Unveiling the World's Wonders with Our Travel Portal"
           </p>
           <div class="time-range">
-            <input type="text" placeholder="Where go" />
-            <input  type="month" name="" id="" placeholder="When" />
-            
-            <input type="text" placeholder="Select Type" />
-            <input type="search" name="" id="" placeholder="Find New" />
+            <input class="tr-btn-radius" type="text" placeholder="Where go" />
+            <input class="tr-btn-radius" type="Date" name="" id="" placeholder="When" />
+            <select class="tr-btn-radius" name="type" id="">
+              <option value="Select-Type">Select Type</option>
+            </select>
+            <button class="tr-btn">Find Now</button>
           </div>
         </div>
       </section>
@@ -45,7 +46,7 @@
         <div class="popular-tour-content">
           <h2>Our Popular Tours</h2>
           <p>
-           Popular tours and trade started their journey with new thinking for better service to the tourist with competitive price, are specialized for The largest mangrove forest subdarbans and out bound group tours. A group of professionals started their journey2019 but the professionals worked this sector last twenty years with dignity, after a long journey with experience they launching this company.
+           Popular tours and trade started their journey<br>with new thinking for better service to the<br>tourist with competitive price, are specialized<br>for The largest mangrove forest subdarbans<br>and out bound group tours. A group of profs<br>started their journey2019 but the profs<br>worked this sector last twenty years with <br>dignity, after a long journey with experience<br> they launching this company.
           </p>
           <ul>
             <li>
@@ -68,6 +69,7 @@
         </div>
       </section>
 
+
       <section class="destination">
         <div class="destination-text">
           <h2>Choose Your Destination</h2>
@@ -75,25 +77,9 @@
             We help you choose your next holiday destination thanks to complete and well detailed guides and tips that will help you make the best of your journey!
           </p>
         </div>
-        <div class="destination-img">
-          <div class="row-1">
-            
-               <img src="Images/Rectangle 5.png" alt="" />
-            
-           
-            <img src="Images/Rectangle 8.png" alt="" />
-          </div>
-          <div class="row-2">
-            <img src="Images/Rectangle 6.png" alt="" />
-            <img src="Images/Rectangle 7.png" alt="" />
-            <img src="Images/Rectangle 9.png" alt="" />
-          </div>
-          <div class="row-3">
-            <img src="Images/Rectangle 11.png" alt="" />
-            <img src="Images/Rectangle 10.png" alt="" />
-          </div>
-        </div>
       </section>
+
+
 
       <section class="why-choose-us">
         <div class="choose-us-heading">
@@ -104,9 +90,8 @@
         </div>
 
         <div class="Choose-box">
-
           <div class="Handpicked-hotel">
-            <img src="" alt="" />
+            <img src="Images/icon/hotel 1.png" alt="">
             <h3>Handpicked Hotels</h3>
             <p>
              Book at Handpicked Hotel & Collections Seoul. No Reservation Costs. Great Rates. Hotels. Great Availability. Get Instant Confirmation. No Booking Fees. 24/7 Customer Service.
@@ -114,7 +99,7 @@
           </div>
 
           <div class="world-clss-service">
-            <img src="" alt="" />
+            <img src="Images/icon/map 1.png" alt="" />
             <h3>World Class Service</h3>
             <p>
              Customer service is hard work. Some days are rewarding and energizing. Others are challenging, making it difficult to feel like what you do is important.
@@ -122,13 +107,17 @@
           </div>
         </div>
 
-        <div class="price-gurantee">
-          <img src="" alt="" />
+        <div class="bpg">
+          <div class="price-gurantee">
+          <img src="Images/icon/price-tag 1.png" alt="" />
           <h3>Best Price Gurantee</h3>
           <p>
             Our Best Price Guarantee means that you can be sure of booking at the best rate.
           </p>
         </div>
+
+        </div>
+        
       </section>
 
       <!-- <section class="deals-discounts">
@@ -210,41 +199,58 @@
       </section>
 
       <section class="newsleter">
-        <div class="newsleter-content">
+        <div class="news-container">
+
+          <div class="newsleter-content">
+
           <h2>Newsletter</h2>
           <p>
             Get your daily dose of travel news & tips. Sign up today!
           </p>
-          <hr />
-          <form  action="">
-            <input class="news-form" type="text" placeholder="Enter your name" /> 
-            <input class="news-form" type="email" name="" id="" placeholder="Enter your email" />
-          </form>
-          <button class="news-btn">Subscribe</button>
+          <hr/>
+
+          <div class="news-name">
+            <input class="news-box news-text " type="text" placeholder="Enter your name" /> 
+          </div>
+              
+          <div class="news-email">
+                 <input class="news-box news-text" type="email" name="" id="" placeholder="Enter your email" />
+          </div>
+
+          <div class="news-btn-cls">
+              <button class="news-btn">Subscribe</button>
+          </div> 
+          
         </div>
-        <div>
-          <img src="Images/Rectangle 8 (1).png" alt="" />
+        
+        
+        <div class="news-img-div">
+          <img class="news-img" src="Images/1.png" alt="" />
         </div>
+
+
       </section>
     </main>
 
     <footer class="footer">
-      <div class="footer-container">
         <div class="footer-logo-name">
           <img src="Images/Group 40071 (2).png" alt="" />
           <h2>NFS <span style="color: #ff5400">Travel</span></h2>
         </div>
-        <p>
+        <div class="f-address">
+          <p>
           127 no house,Nfs Tower,Nazrul Aveneue,Dhanmondi,Bangladesh
         </p>
-        <div class="social">
-          <img src="" alt="" />
-          <img src="" alt="" />
-          <img src="" alt="" />
-          <img src="" alt="" />
         </div>
-        <hr />
-        <p>2017,All Rights Reserved</p>
+        
+        <div class="social">
+          <img src="Images/social/Social.png" alt="" />
+        </div>
+        <hr class="f-hr" />
+        <div class="credits">
+          <p>2017,All Rights Reserved</p>
+        </div>
+        
       </div>
     </footer>
   </body>
