@@ -191,6 +191,7 @@ li {
   display: flex;
   justify-content: space-between;
   gap: 20px;
+  padding-top: 20px;
  
 }
 
@@ -201,6 +202,7 @@ li {
   height: 284px;
   flex-shrink: 0;
   border-radius: 16px;
+  
 }
 
 .world-clss-service {
@@ -210,6 +212,7 @@ li {
   height: 284px;
   flex-shrink: 0;
   border-radius: 16px;
+  padding-top: 20px;
 }
 
 .price-gurantee {
@@ -449,7 +452,9 @@ nav li{
 .row-3 {
   flex-direction: column;
 }
-
+/* .why-choose-us{
+  flex-direction: column;
+} */
 .Choose-box{
   flex-direction: column;
 
