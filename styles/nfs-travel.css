@@ -188,25 +188,34 @@ li {
   display: flex;
   justify-content: space-between;
   gap: 20px;
-  width: 1500px;
-  height: 284px;
-  flex-shrink: 0;
-  border-radius: 16px;
+ 
 }
 
 .Handpicked-hotel {
   border: 1px solid rgba(251, 181, 99, 0.2);
   background: rgba(251, 181, 99, 0.05);
+  width: 700px;
+  height: 284px;
+  flex-shrink: 0;
+  border-radius: 16px;
 }
 
 .world-clss-service {
   border: 1px solid rgba(41, 206, 246, 0.2);
   background: rgba(41, 206, 246, 0.05);
+   width: 700px;
+  height: 284px;
+  flex-shrink: 0;
+  border-radius: 16px;
 }
 
 .price-gurantee {
   border: 1px solid rgba(233, 68, 68, 0.2);
   background: rgba(233, 68, 68, 0.05);
+   width: 700px;
+  height: 284px;
+  flex-shrink: 0;
+  border-radius: 16px;
 }
 
 /* deals & discounts section */
@@ -251,9 +260,11 @@ li {
   font-style: normal;
   font-weight: 800;
   line-height: normal;
-  /* 
-  align-items: center; */
-}
+  }
+
+
+
+
 
 /* PERFECT PLACE SECTION */
 
@@ -316,6 +327,20 @@ li {
 
 .newsleter-content {
   display: ;
+}
+.news-form{
+  width: 393px;
+  height: 52px;
+  flex-shrink: 0;
+  border-radius: 8px;
+  background: rgba(19, 19, 24, 0.05);
+}
+.news-btn{
+  border-radius: 8px;
+  background: #FF5400;
+  width: 393px;
+  height: 52px;
+  flex-shrink: 0;
 }
 
 /* footer section */
