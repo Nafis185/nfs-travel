@@ -89,6 +89,7 @@ header nav ul {
   display: flex;
   justify-content: space-between;
   padding-top: 50px;
+
 }
 .popular-tour-content {
   width: 530px;
@@ -175,14 +176,13 @@ li {
 
 /* why choose us section */
 
-.why-choose-us{
-    padding-top: 20px;
-    padding-left: 15px;
-    padding-bottom: 0px;
-    /* align-content: center; */
-    justify-items: center;
+.why-choose-us {
+  padding-top: 20px;
+  padding-left: 15px;
+  padding-bottom: 0px;
+  /* align-content: center; */
+  justify-items: center;
 }
-
 
 .Choose-box {
   display: flex;
@@ -215,6 +215,7 @@ li {
   width: 1170px;
   height: 800px;
   background-size: cover;
+  /* padding-top: 10px; */
 }
 .dd-box-1 {
   width: 579px;
@@ -240,11 +241,81 @@ li {
   border: 2px solid #fff;
 }
 
+.see-all-packages {
+  border-radius: 8px;
+  background: #ff5400;
+  color: #fff;
+  text-align: center;
+  font-family: Mulish;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  /* 
+  align-items: center; */
+}
+
 /* PERFECT PLACE SECTION */
 
 .perfect-place {
   display: flex;
   justify-content: space-between;
+  padding-top: 20px;
+}
+
+.perfect-place-texts > h2 {
+  color: #131318;
+  font-family: Mulish;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 60px; /* 150% */
+}
+
+.perfect-place-texts > p {
+  color: #5a5a5d;
+  font-family: Mulish;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px;
+}
+
+..perfect-place-texts > ul {
+  color: #131318;
+  font-family: Mulish;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 60px;
+}
+
+.pp-btn {
+  width: 174px;
+  height: 52px;
+  flex-shrink: 0;
+  border-radius: 8px;
+  background: #ff5400;
+  color: #fff;
+  text-align: center;
+  font-family: Mulish;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}
+
+/* newslatter section */
+.newsleter {
+  display: flex;
+  justify-content: space-around;
+  gap: 280px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.newsleter-content {
+  display: ;
 }
 
 /* footer section */
@@ -269,4 +340,104 @@ li {
   display: flex;
   gap: 10px;
   /* justify-content: space-between; */
+}
+
+/* mobile responsive */
+@media screen and (max-width: 600px) {
+
+header,
+main {
+  margin-top: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.explore-your-travel {
+  width: 335px;
+  height: 483px;
+  flex-shrink: 0;
+  border-radius: 16px;
+}
+.explore-container{
+  width: ;
+}
+.explore-container > h1 {
+  color: #fff;
+  font-size: 20px;
+  width:200px ;
+  height: 30px;
+}
+
+.explore-container > p {
+  color: #fff;
+  text-align: center;
+  font-family: Mulish;
+  font-size: 14px;
+  font-style: normal;
+  width:300px ;
+  height: 65px;
+  /* font-weight: 400; */
+  /* line-height: 21px;  */
+}
+
+.time-range {
+}
+
+
+.popular-tours{
+  flex-direction: column;
+  width: 335px;
+  height: 40p0x;
+}
+
+
+.popular-tours > h2{
+  font size:20px;
+ 
+}
+.popular-tours > p{
+  font size: 14px ;
+  color: rgba(19, 19, 24, 0.70);
+}
+
+
+.row-1,
+.row-2,
+.row-3 {
+  flex-direction: column;
+}
+
+.Choose-box{
+  flex-direction: column;
+
+}
+.perfect-place{
+  flex-direction: column;
+}
+.newsleter{
+  flex-direction: column;
+}
+
+.tour-img{
+  width: 335px;
+  height: 483px;
+  flex-shrink: 0;
+  border-radius: 16px;
+  padding-bottom: 50px;
+
+}
+.Choose-box{
+  width: 335px;
+  height: 289px;
+  flex-shrink: 0;
+  border-radius: 16px;
+}
+
+.footer{
+width: 375px;
+height: 309px;
+flex-shrink: 0;
+align-items: center;
+}
+
 }
